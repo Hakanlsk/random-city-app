@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/image.jpg);
+    background-size:cover ;
+    text-align: center;
+}
+
+h1{
+  font-size: 32px; /* Yazı boyutu */
+  font-weight: bold; /* Kalın yazı */
+  text-align: center; /* Ortalama hizalama */
+  padding: 20px; /* İç kenar boşluğu */
+  margin: 0; /* Dış kenar boşluğu */
+  color: white; /* Beyaz yazı rengi */
+  text-shadow: 1px 1px 2px black; /* Hafif gölgelendirme */
+}
+
+button {
+    background-color: rgb(0, 0, 0); /* Arka plan rengi */
+    color: lightblue; /* Buton yazı rengi */
+    font-size: 16px; /* Yazı boyutu */
+    border: none; /* Kenarlık yok */
+    padding: 12px 24px; /* İç kenar boşluğu */
+    border-radius: 4px; /* Yay şeklinde kenarlar */
+    text-transform: uppercase; /* Büyük harf dönüştürme */
+    font-weight: bold; /* Kalın yazı */
+    text-shadow: 1px 1px 2px black; /* Hafif gölgelendirme */
+    cursor: pointer; /* El göstergesi mouse'un üzerinde */
+    position: absolute; /* Pozisyonu mutlaka belirtilmelidir */
+    top: 50%; /* Sayfanın yarısına hizalama */
+    left: 50%; /* Sayfanın yarısına hizalama */
+    transform: translate(-50%, -50%); /* Tam ortaya hizalama */
+  }
+  
+  button:hover {
+    background-color: lightblue; /* Buton üzerine gelince arkaplan rengi */
+    color: white; /* Buton üzerine gelince yazı rengi */
+  }
+
+  .kutu {
+    background-color: bisque; /* Kutu arkaplan rengi */
+    padding: 20px; /* Kutu içeriği ile çerçeve arasındaki mesafe */
+    text-align: center; /* İçerik ortalanacak */
+    display: inline-block; /* Genişlik otomatik ayarlanacak */
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    width: 170px;
+  }
